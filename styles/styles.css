@@ -1,3 +1,4 @@
+/* Navigation styles */
 nav {
     background-color: darkblue;
     padding: 10px;
@@ -9,18 +10,52 @@ nav a {
     padding: 20px;
 }
 
+/* Headings */
 h1 {
     color: darkblue;
 }
 
-img {
+/* Main section styling (Step 4.2) */
+main {
+    max-width: 840px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* Aside section styling (Step 4.3) */
+aside {
+    width: 300px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    padding: 15px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Profile image inside main (Step 4.5) */
+main img {
     width: 150px;
     height: auto;
     border: 1px solid black;
     padding: 2px;
-    box-shadow: 0 0 30px gray
+    box-shadow: 0 0 30px gray;
 }
 
+/* Nairobi image inside aside (Step 4.4) */
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+/* Paragraphs padding update (Step 4.6) */
 p {
-    padding: 10px
+    padding: 0;
+}
+
+/* Footer styling (Step 4.7) */
+footer {
+    margin-top: 30px;
+    border-top: 1px solid #ccc;
+    text-align: center;
+    padding: 20px;
 }
